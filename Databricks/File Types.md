@@ -1,0 +1,3 @@
+File Types
+
+Apache Parquet is a highly optimized solution for data storage and is the recommended option for storage where possible.  In addition to offering benefits like compression, it's distributed, so a given partition of data writes to its own file, enabling parallel reads and writes. Formats like CSV are prone to corruption since a single missing comma could corrupt the data. Also, the data cannot be parallelized.
